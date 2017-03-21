@@ -1,0 +1,88 @@
+body {
+	padding-top: 70px;
+	text-align: right;
+}
+img {
+	width: 100%;
+}
+/*
+=======================
+The begenning of header
+=======================
+*/
+.header .navbar-default {
+    background-color: #0057B8;
+    border-color: #000;
+}
+.header .navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+/*
+====================
+The End header
+====================
+*/
+.slider, .footer-feature {
+	border: 1px solid #000;
+	border-radius: 10%;
+	padding: 10px;
+}
+
+/*
+=========================
+The begenning of lattest video
+=========================
+*/
+.lattest-video {
+	padding: 5px;
+	position: relative;
+	text-transform: capitalize;
+	border: 1px solid #000;
+	border-radius: 10%;
+	margin-bottom: 3px;
+}
+.lattest-video:after {
+	content: "378";
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	font-size: 9px;
+}
+.lattest-video:before {
+	content: "1 day";
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	font-size: 9px;
+}
+.lattest-video a:hover {
+	text-decoration: none;
+}
+/*
+=========================
+The end of lattest video
+=========================
+*/
+
+/*
+=========================
+The begenning of all-video
+=========================
+*/
+.all-video {
+	margin: 5px;
+	padding: 10px;
+	border-radius: 10%;
+	border: 1px solid #000;
+}
+/*
+=========================
+The end of all-video
+=========================
+*/
+
+/*
+=========================
+The begenning of footer area
+=========================
+*/
